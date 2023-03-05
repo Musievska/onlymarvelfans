@@ -4,6 +4,10 @@
         "onlymarvelfans"
     ],
     "code-runner.executorMap": {
+          "eslint.workingDirectories": [
+              "server",
+              "client"
+          ],
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
         "c": "cd $dir && gcc $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",

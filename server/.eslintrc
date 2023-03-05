@@ -1,0 +1,54 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true,
+    "node": true
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": "latest",
+    "project": "server/tsconfig.eslint.json"
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "plugin:prettier/recommended",
+    "standard-with-typescript",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "plugins": ["@typescript-eslint", "prettier"],
+  "overrides": [],
+  "rules": {
+    "prettier/prettier": "error",
+    "no-unused-vars": "off",
+    "@typescript-eslint/no-unused-vars": "error",
+    "no-useless-constructor": "off",
+    "@typescript-eslint/no-useless-constructor": "error",
+    "no-empty-function": "off",
+    "@typescript-eslint/no-empty-function": "error",
+    "no-throw-literal": "off",
+    "@typescript-eslint/no-throw-literal": "error",
+    "no-unsafe-assignment": "off",
+    "@typescript-eslint/no-unsafe-assignment": "error",
+    "no-unsafe-call": "off",
+    "@typescript-eslint/no-unsafe-call": "error",
+    "no-unsafe-member-access": "off",
+    "@typescript-eslint/no-unsafe-member-access": "error",
+    "no-unsafe-return": "off",
+    "@typescript-eslint/no-unsafe-return": "error",
+    "no-var": "off",
+    "@typescript-eslint/no-var-requires": "error",
+    "no-implicit-any-catch": "off",
+    "@typescript-eslint/no-implicit-any-catch": "error",
+    "no-invalid-this": "off",
+    "@typescript-eslint/no-invalid-this": "error",
+    "no-invalid-void-type": "off",
+    "@typescript-eslint/no-invalid-void-type": "error",
+    "no-loss-of-precision": "off",
+    "@typescript-eslint/no-loss-of-precision": "error",
+    "no-magic-numbers": "off",
+    "@typescript-eslint/no-magic-numbers": "error"
+  }
+}

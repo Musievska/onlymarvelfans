@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "ES2020", 
+    "target": "ES2020",
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "strict": true,
@@ -8,21 +8,15 @@
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
-    "typeRoots": [
-      "node_modules/@types",
-      "@types"
-    ],
-    "types": [
-      "node",
-      "express"
-    ]
+    "skipDefaultLibCheck": true,
+    "declaration": true,
+    "declarationMap": true,
+    "typeRoots": ["node_modules/@types", "@types"],
+    "types": ["node", "express" ]
   },
-  "include": 
-       ["./src/**/*.ts"],
-        "ts-node": {
-          "esm": true,
-        },
-  "exclude": [
-    "node_modules",
-    "dist",  ]
+  "include": ["./src/**/*.ts"],
+  "ts-node": {
+    "esm": true
+  },
+  "exclude": ["node_modules", "dist"]
 }
