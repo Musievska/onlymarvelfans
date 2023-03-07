@@ -4,6 +4,8 @@
     "module": "NodeNext",
     "moduleResolution": "NodeNext",
     "strict": true,
+    "outDir": "dist",
+    "rootDir": "src",
     "sourceMap": true,
     "allowSyntheticDefaultImports": true,
     "skipLibCheck": true,
@@ -12,7 +14,7 @@
     "declaration": true,
     "declarationMap": true,
     "typeRoots": ["node_modules/@types", "@types"],
-    "types": ["node", "express" ]
+    "types": ["node", "express"]
   },
   "include": ["./src/**/*.ts"],
   "ts-node": {

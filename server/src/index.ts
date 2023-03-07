@@ -1,6 +1,5 @@
 import express, { type Express, type Request, type Response } from 'express'
 import * as dotenv from 'dotenv'
-// import * as cookie-parser from 'cookie-parser';
 
 dotenv.config()
 
