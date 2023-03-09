@@ -7,11 +7,11 @@ const app: Express = express()
 
 app.use(express.json())
 app.use(cors())
-app.use(morgan('dev'))
-app.use(helmet())
+app.use(morgan('tiny'))
+app.use(helmet({ crossOriginEmbedderPolicy: false }))
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Hi!')
+  res.end('Hi!')
 })
 
 export default app
