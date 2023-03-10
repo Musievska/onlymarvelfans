@@ -7,7 +7,7 @@
   "parserOptions": {
     "sourceType": "module",
     "ecmaVersion": "latest",
-    "project": "server/tsconfig.eslint.json"
+    "project": "server/tsconfig.json"
   },
   "extends": [
     "eslint:recommended",
